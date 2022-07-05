@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.part_1{
+    
+}
+.part_1 img{
+    width: -webkit-fill-available;
+    position: relative ;
+    margin: auto;
+    
+}
+
+.part_1 .logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    transform: translateY(-1250px);
+    margin-left: 400px;
+}
+
+.part_1 ul{
+    width: 800px;
+   display: flex;
+   list-style: none;
+    justify-content: space-around;
+    margin-left: 1000px;
+    transform: translateY(-1200px);
+}
+
+.part_1 ul li{
+    font-size: 30px;
+    color:white;
+}
